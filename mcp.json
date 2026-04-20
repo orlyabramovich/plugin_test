@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "geni": {
+      "type": "http",
+      "url": "http://localhost:5000/"
+    }
+  }
+}

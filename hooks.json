@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "node hooks/inject-token.mjs",
+        "timeout": 120
+      }
+    ]
+  }
+}

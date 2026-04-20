@@ -1,0 +1,11 @@
+{
+  "name": "geni-mcp-plugin",
+  "displayName": "Geni MCP Plugin",
+  "version": "0.0.1",
+  "description": "Registers the Geni MCP server and injects Kerberos-backed ibi-token / Axon-Token into AxonTool and HSDIndexTool calls via a PreToolUse hook.",
+  "publisher": "intel",
+  "license": "MIT",
+  "engines": {
+    "vscode": ">=1.116.0"
+  }
+}
