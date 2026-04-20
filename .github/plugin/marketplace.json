@@ -1,0 +1,28 @@
+{
+  "name": "orly-plugin-marketplace",
+  "owner": {
+    "name": "Orly Abramovich",
+    "email": "orlyabramovich@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Marketplace containing the Geni MCP plugin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "geni-mcp-plugin",
+      "description": "Registers the Geni MCP server and injects Kerberos-backed tokens into AxonTool and HSDIndexTool calls.",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "productivity",
+      "keywords": [
+        "geni",
+        "mcp",
+        "axon",
+        "hsd",
+        "kerberos",
+        "hooks"
+      ]
+    }
+  ]
+}

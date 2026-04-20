@@ -48,9 +48,16 @@ blocks other tools.
 
 ## Install
 
-Drop this folder into your Copilot plugins directory (path TBD per VS Code
-docs — typically `~/.copilot/plugins/geni-mcp-plugin/`), or install via
-`Chat: Install Plugin` from a git URL.
+Install directly from GitHub with either of these forms:
+
+- `/plugin install orlyabramovich/plugin_test`
+- `/plugin install https://github.com/orlyabramovich/plugin_test`
+
+This repo also includes marketplace metadata at `.github/plugin/marketplace.json`
+for marketplace-based plugin discovery.
+
+You can still install manually by copying this folder into your Copilot plugins
+directory (typically `~/.copilot/plugins/geni-mcp-plugin/`).
 
 After install, uninstall the old `GeniMCPExtension` to avoid registering
 the server twice.
